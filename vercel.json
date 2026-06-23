@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/opening-tasks",
-      "destination": "https://opening-tasks-cyber.vercel.app/opening-tasks"
+      "destination": "https://opening-tasks-cyber-git-main-karinabudhu0930s-projects.vercel.app/opening-tasks"
     },
     {
       "source": "/opening-tasks/:path*",
-      "destination": "https://opening-tasks-cyber.vercel.app/opening-tasks/:path*"
+      "destination": "https://opening-tasks-cyber-git-main-karinabudhu0930s-projects.vercel.app/opening-tasks/:path*"
     }
   ]
 }
