@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/opening-tasks",
+      "destination": "https://opening-tasks-cyber.vercel.app/opening-tasks"
+    },
+    {
+      "source": "/opening-tasks/:path*",
+      "destination": "https://opening-tasks-cyber.vercel.app/opening-tasks/:path*"
+    }
+  ]
+}
